@@ -3,51 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SANKET-Resume</title>
+    <title>SANKET - Resume</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: linear-gradient(to bottom, #f3f4f6, #e3e4e8);
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #444;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            border-bottom: 2px solid orange;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ff6600;
+            text-decoration: underline;
+        }
+
+        button {
+            background-color: orange;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button a {
+            color: #fff;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #e65c00;
+        }
+
+        div {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        table {
+            margin: auto;
+            width: 80%;
+            border-spacing: 0;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        table td {
+            padding: 15px;
+            vertical-align: top;
+        }
+
+        img {
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f7f7f7;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        ul li:hover {
+            transform: translateX(10px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: #fff;
+            margin-top: 20px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            table {
+                width: 95%;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            ul li {
+                font-size: 0.9em;
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>SANKET</h1>
-   <button style="background-color:orange;"><a href="#Skills">skill</a></button>
+    <button><a href="#Skills">Skill</a></button>
     <div>
         <p>Contact: <a href="mailto:sanketsidhivinayak8@gmail.com">sanketsidhivinayak8@gmail.com</a></p>
-        <p>LinkIn: <a href="https://www.linkedin.com/in/sanketnayak45/">linkedin.com/in/sanketnayak45/</a></p>
-        <p>GitHub:<a href="https://github.com/SANKET45IAS">github.com/SANKET45IAS</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sanketnayak45/">linkedin.com/in/sanketnayak45/</a></p>
+        <p>GitHub: <a href="https://github.com/SANKET45IAS">github.com/SANKET45IAS</a></p>
     </div>   
     <div>
-      <table>
-        <tr>
-            <td><img src="Resume.jpg" style="height: 150px;width: 120px;" loading="lazy"></td>
-            <td>As a software engineer, I am deeply passionate about creating innovative solutions that enhance user experience and drive technological advancement. With a strong foundation in computer science principles and extensive experience in various programming languages and frameworks, I have developed a diverse skill set that allows me to tackle complex problems effectively.</td>
-        </tr>
-      </table>
+        <table>
+            <tr>
+                <td><img src="Resume.jpg" style="height: 150px; width: 120px;" loading="lazy"></td>
+                <td>As a software engineer, I am deeply passionate about creating innovative solutions that enhance user experience and drive technological advancement. With a strong foundation in computer science principles and extensive experience in various programming languages and frameworks, I have developed a diverse skill set that allows me to tackle complex problems effectively.</td>
+            </tr>
+        </table>
     </div>
     <section>
-        <h2>Eductaion</h2>
+        <h2>Education</h2>
         <ul>
-            <li>Bachelor of Technology in Computer Science👨‍💻,Institute of Technical and Educational Research</li>
-            <li>Kendriya Vidyalaya,Deogarh</li>
+            <li>Bachelor of Technology in Computer Science 👨‍💻, Institute of Technical and Educational Research</li>
+            <li>Kendriya Vidyalaya, Deogarh</li>
         </ul>
 
         <h2>Work Experience</h2>
-        <h3>software Engineer,Microsoft</h3> 
+        <h3>Software Engineer, Microsoft</h3> 
         <p>Nov 2021 - May 2022</p>
         <ul>
-            <li>Developed and maintained web applications using HTML,CSS,JavaScript</li>
-        <li>Collaborated with cross-functional teams to design and implement software solutions</li>
-        <li>Optimized code performance and improved application efficiency</li>
+            <li>Developed and maintained web applications using HTML, CSS, JavaScript</li>
+            <li>Collaborated with cross-functional teams to design and implement software solutions</li>
+            <li>Optimized code performance and improved application efficiency</li>
         </ul>
+
         <section id="Skills">
-        <h2>Skill</h2>
-        <ul>
-            <li>PYTHON</li>
-            <li>SQL</li>
-            <li>JAVA</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <LI>JavaScript0</LI>
-        </ul>
+            <h2>Skills</h2>
+            <ul>
+                <li>PYTHON</li>
+                <li>SQL</li>
+                <li>JAVA</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
         </section>
     </section>
-    <footer>© 2024 CodeHeal . All rights reserved</footer>
+    <footer>&copy; 2024 CodeHeal. All rights reserved.</footer>
 </body>
 </html>
